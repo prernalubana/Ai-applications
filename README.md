@@ -65,4 +65,28 @@ PFA the image representing the local working and output of my third assignment.
 <img width="1920" height="958" alt="image" src="https://github.com/user-attachments/assets/3e656869-9110-4a05-9139-9f0a2368a8dd" />
 
 
+## Assignment-4:
+**Purpose:**
+This part of the assignment was to build an AI-powered Resume Reviewer that evaluates candidate resumes for a specific job role using Prompt Engineering. 
+The goal was to guide a Large Language Model to analyze resumes and generate structured feedback about the candidate’s suitability for the role.
+
+**Working of assignment:**
+Resume Input + Job Role -> Python Application -> Prompt Engineering -> Ollama -> Phi-3 LLM -> Structured Resume Evaluation -> Displayed to User
+
+**Technologies used:**
+1. **LangChain** – Used to interact with the language model and manage prompt templates.
+2. **Ollama** – Allows running Large Language Models locally without external APIs.
+3. **Phi-3 Mini Large Language Model** – An open-source lightweight LLM used to analyze resumes and generate evaluations.
+
+**Work Summary:**
+
+- In this assignment, I developed an AI Resume Reviewer that analyzes candidate resumes for a specific job role using Prompt Engineering techniques.
+- The system accepts two inputs from the user: the resume text and the job role.
+- A carefully designed prompt instructs the Large Language Model to behave like an experienced technical recruiter.
+- The prompt guides the model to analyze the candidate’s skills, experience, and education in relation to the job role requirements.
+- Based on this analysis, the model generates structured feedback including a candidate summary, matching skills, missing skills, experience evaluation, and an overall recommendation about the candidate’s suitability for the role.
+
+PFA the image representing the local working and output of my fourth assignment.
+<img width="1920" height="808" alt="image" src="https://github.com/user-attachments/assets/7fa9fed0-825e-44f5-94d9-fbfdb7bc7fab" />
+
 
