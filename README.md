@@ -1,6 +1,6 @@
 # Assignments Overview
 ## Assigment-1:
-**Purpose**: This part of sssignment was to create a simple AI assitant 
+**Purpose**: This part of assignment was to create a simple AI assitant 
 
 **Working of assignment**: User Input -> Python Application -> Ollama -> Phi-3 LLM -> Generated Response -> Displayed to User 
 
@@ -10,7 +10,7 @@
 
 **Work Summary**: 
 - In this assignment, I have used ollama to create the simple assistant application.
-- Phi-3 is an open-source LLModel, it is small yet efficient.
+- Phi-3 is an open-source LLM, it is small yet efficient.
 
 PFA the image representing the local working and output of my first assignment:
 <img width="1904" height="420" alt="image" src="https://github.com/user-attachments/assets/37ff7e6c-8ea9-45ba-aed6-1beba3c4cb83" />
@@ -88,5 +88,38 @@ Resume Input + Job Role -> Python Application -> Prompt Engineering -> Ollama ->
 
 PFA the image representing the local working and output of my fourth assignment.
 <img width="1920" height="808" alt="image" src="https://github.com/user-attachments/assets/7fa9fed0-825e-44f5-94d9-fbfdb7bc7fab" />
+
+## Assigment-5:
+**Purpose:**
+This part of the assignment was to build an AI-powered HR Assistant using Retrieval-Augmented Generation (RAG). 
+The goal was to create a system that can answer employee questions by retrieving relevant information from HR policy documents and generating accurate responses using a Large Language Model.
+
+**Working of assignment:**
+HR Policy Documents -> Python Application -> Document Loader -> Text Chunking -> Embeddings Generation -> Vector Database (FAISS) -> Query Retrieval -> Ollama -> Phi-3 LLM -> Generated Response -> Displayed to User
+
+**Technologies used:**
+1. **LangChain** – Used for document loading, text splitting, and vector database integration.
+2. **FAISS (Vector Database)** – Used to store document embeddings and perform similarity-based retrieval.
+3. **Ollama** – Allows running Large Language Models locally without external APIs.
+4. **Phi-3 Mini Large Language Model** – An open-source lightweight LLM used to generate answers from retrieved HR policy content.
+5. **Nomic Embed Text Model** – Used to generate embeddings for document chunks for semantic search.
+
+**Work Summary:**
+- In this assignment, I developed an AI HR Assistant that answers employee questions using information retrieved from HR policy documents.
+- The system uses a Retrieval-Augmented Generation (RAG) architecture, which combines document retrieval with a LLM to generate accurate responses.
+- First, the HR policy PDF documents are loaded into the system and split into smaller text chunks.
+- These chunks are converted into embeddings using the **Nomic Embed Text embedding model**, which transforms text into numerical vectors representing semantic meaning.
+- The embeddings are stored in a **FAISS vector database**, enabling efficient similarity search.
+-  When a user asks a question, the system retrieves the most relevant document chunks from the vector database based on the query.
+-  These retrieved chunks are then passed to the **Phi-3 Mini LLM running locally through Ollama**, which generates a response based on the retrieved HR policy context.
+-  This approach ensures that the AI assistant provides answers grounded in the company’s HR policies rather than generating responses purely from general knowledge.
+
+PFA the image representing the local working and output of my fifth assignment.
+<img width="1917" height="342" alt="image" src="https://github.com/user-attachments/assets/aab2d61c-43a4-4291-9e88-e9a60df40bb6" />
+
+
+
+
+
 
 
